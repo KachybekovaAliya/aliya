@@ -87,7 +87,8 @@ h1 = 13
 m1 = 25
 h2 = 19
 m2 = 40
-h = (h1 - h2)
-m = (m1 - m2)
-print(int(h))
-print(int(m))
+h = (h2 - h1)
+m = (m2 - m1)
+print("He spent", (h), ":", (m))
+
+
