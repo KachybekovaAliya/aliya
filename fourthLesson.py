@@ -28,7 +28,7 @@
 
 # student1 = ["Tom", 29, True, "male", "bank"]
 # numbers = [1, 2, 3, 4, 5]
-# people = ["Tom", "Sam", "Bob", "Tobey", "Kate", "Ruki", "Simon", "Lily"]
+people = ["Tom", "Sam", "Bob", "Tobey", "Kate", "Ruki", "Simon", "Lily"]
 # people.append("Rob")    #  adding element in the end of the list
 # # len_list = len(people)
 # # print(len_list)
@@ -38,8 +38,8 @@
 # people.extend(people2)
 # people.remove("Tom")
 # people2.clear()
-# KateIndex = people.index("Kate")
-# print(KateIndex)
+KateIndex = people.index("Kate")
+print(KateIndex)
 # people[4] = "Trina"
 # print(people2)
 # print(people)
@@ -56,59 +56,3 @@
 # print(people)
 # print(name_list)
 # print(prist_list)
-
-# age = int(input("Enter your age:"))
-# a = age %10 == 0 and age >= 50 when we have "AND" both reqirements should be considered 
-# print(a)
-
-# age = int(input("Enter your age:"))
-# a = age %10 == 0 or age >= 50 When we have "OR" that means it consider one of the reqierments 
-# print(a)
-
-# name = "Sara"
-# if name == "Bob":
-#     print("It's male")
-# else:
-#     print("It's female")
-
-# a = int(input("Enter a nimber:"))
-# if (a > 0) or (5 == a):
-#     print("Positive")
-# elif a == 0:
-#     print("Zero")
-# else:
-#     print("Negative")
-
-# print(f"person is older than 15 years old!", {person == "student"}, {person == "10th grade"}, {person == "11th grade"}) sample of another idea
-# person = input("status of person:")
-# if person == "student" or person == "10th grade" or person == "11th grade":
-#     print(f"person is older than 15 years old!, Because {person}") 
-# else:
-#     print("This person is under 15 years old")
-
- 
-# age = input("Enter your age:")
-# if age < 13:
-#     print("Baby")
-# elif age < 18:
-#     print("Teenager")
-# elif age >= 18 and age < 50:
-#     print("Adult")
-# elif age >= 50 and age <200:
-#     print("Pensioner")
-# else:
-#     print("incorrect value")
-
-# try:
-#     age = int(age)
-# except:
-#     print("Incorrect value")
-
-list = ["Sonya", "Tim", "Kate", "Bella", "Jack"]
-if "Sahsa" in list:
-    print("Yes, He in the list")
-    print(list)
-else:
-    print("He is not in the list")
-    list.append("Sasha")
-    print("Now he is", list)
