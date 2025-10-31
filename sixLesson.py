@@ -129,23 +129,101 @@
 
 # len(string) Возвращает длину строки string.
 
+# Seminar 3 
 # task 1
-a = str(32)
-b = str(3.5)
-x = str(True)
+# a = str(32)
+# b = str(3.5)
+# x = str(True)
 
-# task 2
-str_ = input("Enter something:")
+# # task 2
+# str_ = input("Enter something:")
 
-# task 3
-name = input("Write your name: ")
-surname = input("Write your surname: ")
+# # task 3
+# name = input("Write your name: ")
+# surname = input("Write your surname: ")
 
-# task 4
-res = name + " " + surname
-print(res)
+# # task 4
+# res = name + " " + surname
+# print(res)
+# # Task 5 
+# name = input("Write your name: ")
+# score = input("Enter your score: ")
+# print(f"Hello, {name}! Your score is {score}")
 
-name = input("Write your name: ")
-score = input("Enter your score: ")
-print(f"Hello, {name}! Your score is {score}")
+# # task 6 
+# age = input("Enter your age: ")
+# print(f"My name is {name}, and i am {age} years.")
 
+# task7 
+# python = 'Python is easy'
+# sp = python[0]
+# print(sp)
+# sp1 = python[-1]
+# print(sp1)
+# sp2 = python[:2]
+# print(sp2)
+# sp3 = python[-3:]
+# print(sp3)
+# sp4 = python[2:5]
+# print(sp4)
+# sp5 = python[1:9]
+# print(sp5)
+# sp6 = python[1:-1]
+# print(sp6)
+# sp7 = python[::2]
+# print(sp7)
+# sp8 = python[1::2]
+# print(sp8)
+# sp9 = python[::-1]
+# print(sp9)
+# sp10 = python[4:1:-1]
+# print(sp10)
+# sp11 = python[::-2]
+# print(sp11)
+
+# Task 8 
+# ppl = "PythonProgrammingLanguage"
+# ppl1 = ppl[:6]
+# ppl2 = ppl[17:]
+# print(f"{ppl1} {ppl2}")
+
+# task 9 
+# love = "I love Python programming!"
+# sl1 = love.replace("Python", "Java")
+# print(sl1)
+
+# task 10
+# name = input("Enter your name: ")
+# name1= (f"Hi, {name.capitalize()}!")
+# print(name1)
+
+# task 11
+# code = 'atgcaagttgacaattta'
+# code1 = code.upper()
+# print(code1)
+
+# task 12
+# code = 'augcaagugacaauuua'
+# code1= code.replace("u", "t")
+# print(code1)
+
+# task 13 
+# nun_phone = '   +7(919)-@784-54_18@@     ' 
+# nun_right = nun_phone.strip().replace('@', '').replace('_', '')
+# print(nun_right)
+
+# task 14
+# str_ = '67dg#uin_87' 
+# lenght = len(str_)
+# index = str_.index('#')
+# print("Длинна строки:", lenght)
+# print("Индекс символа '#' :", index)
+
+# task 15
+name = input("Enter your name: ")
+name1 = name.capitalize()
+text = """ Имя этого героя "name". Поход в театр для него целый ритуал. Входя в фойе, "name" демонстративно снимает шляпу, поправляет галстук и вешает
+ольто на руку. Он непременно думает, что все, кому он знаком говорят про себя: "Ах, сегодня "name" неотразим!" После чего "name"
+занимает лучшее место бенуара и с важным видом достает очки."""
+text2 = text.replace('"name"', name1)
+print(text2)
